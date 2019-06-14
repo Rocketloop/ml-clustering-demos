@@ -5,7 +5,7 @@ You will find helpful information and insights about what the script does and ho
 Simply hit the following link:
 https://rocketloop.de/machine-learning-clustering-in-python/
 ## The data
-The dataset used is generated using points_generator.py. We already created the dataset and its saved under ./datasets/.
+The dataset used is generated using points_generator.py. We already created the dataset and its saved under datasets/points.txt.
 Feel free to use it (it's the default anyways).
 ## Running the script
 ### Running as Python3 application.
@@ -14,10 +14,10 @@ Do so by typing `virtualenv venv` in your terminal in the directory where you wa
 The next step will be to start the virtual environment with `source venv/bin/activate`.       
 Once you are in the virtual environment enter `pip install -r requirements.txt` to install the required packages.
 After the install you are good to run `python3 clusterer.py`.
-For any changes of the data set used for training or testing of the models you have to manually change the code.
+For any changes of the data set used for training of the models you have to manually change the code.
 To do so use an editor of your choice and navigate to the main function and edit the value for `data = pd.read_csv(your path)`.
-Depending on your dataset you might have to declare the categorical variables in the main function though you might have to do some more work preparing your data, therefore I don't recommend using categorical data unless you really know what you are doing.       
-When you want to leave the virtual environment simply type `deactivate` or quit your terminal.
+Depending on your dataset you might have to declare categorical variables in the main function though you might have to do some more work preparing your data, therefore I don't recommend using categorical data unless you really know what you are doing.       
+When you want to leave the virtual environment, simply type `deactivate` or quit your terminal.
 ### Running as Jupyter Notebook
 To run the script in the Jupyter Notebook you must first install Jupyter.
 To do so enter `pip install ipykernel` and `pip install ipython` in your terminal.     
