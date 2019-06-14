@@ -1,3 +1,9 @@
+"""Docstring: Programm to generate random points. """
+
+__author__ = "Tobias Marzell"
+__credits__ = ""
+__email__ = "tobias.marzell@gmail.com"
+
 import numpy as np
 import pandas as pd
 from sklearn.datasets.samples_generator import make_blobs

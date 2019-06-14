@@ -1,3 +1,13 @@
+"""Docstring: Demo of clustering algorithms in python.
+
+This programm uses sklearn and hdbscan libraries to train clustering
+algorithms in python.
+"""
+
+__author__ = "Tobias Marzell"
+__credits__ = ""
+__email__ = "tobias.marzell@gmail.com"
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
