@@ -61,7 +61,7 @@ def get_optics(data):
 	vals = data.iloc[ :, 0:].values
 	y_pred = optics.fit_predict(StandardScaler().fit_transform(vals))
 	data["cluster"] = y_pred
-	return data, labels
+	return data
 
 def get_dbscan(data, min_samples=3):
 	""" Do dbscan clustering and return clustered data """
