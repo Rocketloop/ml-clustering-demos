@@ -16,10 +16,8 @@ from sklearn.cluster import KMeans
 from sklearn.cluster import DBSCAN
 from sklearn.cluster import OPTICS
 from sklearn import metrics
-from sklearn.metrics import pairwise_distances
 from sklearn.preprocessing import StandardScaler
 import hdbscan
-from sklearn.datasets.samples_generator import make_blobs
 
 def remove_incomplete_data(data):
 	""" Remove every row of the data that contains atleast 1 "?". """
