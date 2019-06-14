@@ -142,12 +142,12 @@ def main():
 	silhouettes = []
 	min_cluster_size = []
 	for i in range (8):
-		hdbsca, clusterer = get_hdbscan(data, i+3)
-		hdbsca = data.merge(hdbsca)
-		calinskis.append(metrics.calinski_harabasz_score(data2, data['cluster']))
-		silhouettes.append(metrics.silhouette_score(data2, data['cluster']))
-		min_cluster_size.append(i+3)
-	print(metrics.calinski_harabasz_score(data2, data['cluster']), metrics.silhouette_score(data2, data['cluster']))
+            hdbsca, clusterer = get_hdbscan(data, i+3)
+            hdbsca = data.merge(hdbsca)
+            calinskis.append(metrics.calinski_harabasz_score(data2, data['cluster']))
+            silhouettes.append(metrics.silhouette_score(data2, data['cluster']))
+            min_cluster_size.append(i+3)
+            print(metrics.calinski_harabasz_score(data2, data['cluster']), metrics.silhouette_score(data2, data['cluster']))
 	plt.plot(min_cluster_size, calinskis,'ro-', label="HDBSCAN Ralinski Harabasz Score")
 	plt.title("HDBSCAN Calinski Harabasz Score")
 	plt.xlabel("minimum cluster size")
