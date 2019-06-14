@@ -1,0 +1,14 @@
+age,workclass,fnlwgt,education,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hpw,native-country,target
+39, State-gov, 77516, Bachelors, 13, Never-married, Adm-clerical, Not-in-family, White, Male, 2174, 0, 40, United-States, <=50K
+18, Private,62972, 11th,7, Never-married, Other-service, Own-child, White, Male,0,0,16, United-States, <=50K
+27, Private,166210, HS-grad,9, Divorced, Craft-repair, Not-in-family, White, Male,0,0,50, United-States, <=50K
+39, Self-emp-not-inc,326400, Masters,14, Never-married, Prof-specialty, Not-in-family, White, Male,0,0,40, United-States, <=50K
+44, Self-emp-not-inc,179557, HS-grad,9, Married-civ-spouse, Exec-managerial, Husband, White, Male,0,1977,45, United-States, >50K
+33, Private,149726, HS-grad,9, Married-civ-spouse, Sales, Husband, White, Male,0,0,40, United-States, >50K
+35, Private,67728, Some-college,10, Married-civ-spouse, Craft-repair, Husband, White, Male,0,2051,45, United-States, <=50K
+40, Private,119225, Assoc-voc,11, Married-civ-spouse, Prof-specialty, Husband, White, Male,0,0,40, United-States, <=50K
+52, Private,133403, Some-college,10, Married-civ-spouse, Craft-repair, Husband, White, Male,0,0,55, United-States, <=50K
+37, Private,241998, Bachelors,13, Married-civ-spouse, Tech-support, Husband, White, Male,0,0,50, United-States, >50K
+37, Private,168475, HS-grad,9, Married-civ-spouse, Exec-managerial, Husband, White, Male,0,0,40, United-States, >50K
+57, Private,99364, 9th,5, Married-civ-spouse, Machine-op-inspct, Husband, White, Male,0,0,40, Puerto-Rico, <=50K
+61, ?,124648, 10th,6, Divorced, ?, Not-in-family, White, Female,0,0,40, United-States, <=50K
